@@ -1,0 +1,50 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.circular-image {
+  border-radius:  50%;
+  width: 250px;
+  height: 250px;
+  }
+#converter{
+	font-size: 30px; margin: 20px 0px 0px 310px;
+}
+#from, #to, #io, #io1{
+	padding: 10px; width: 200px;
+}
+.output{
+	 margin-top: -100px; margin-left: 500px;
+}
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+#active{
+
+    background-color:powderblue;
+}
+.ima{
+
+background-image:url(images.jpg);
+	background-repeat:no-repeat;
+	background-size: 1400px 790px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<!doctype html>
+
+ <html class="no-js" lang=""> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> Welcome to My Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="calc.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+       
+    </head>
+    <body>
+        
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Harnath Vagicharla</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+        <a class="navbar-brand" href="index.html">Home</a>
+          <a id="active" class="navbar-brand" href="value.html">CurrencyValue</a>
+          <a class="navbar-brand" href="contact_details.html">Contact Me</a> 
+</ul>
+<ul class="nav navbar-nav navbar-right">
+         <a href="https://github.com/HARNATH1010" target="_blank"> <img class="logos" src="GitHub-Mark.png" alt=" git account  "></a>
+ 	 <a href="https://bitbucket.org/HARNATH1010/" target="_blank"><img class="logos" src="BB-Mark.png" alt=" bitbucket account"></a>
+ 	 <a href="https://www.facebook.com/harnath.vagicharla" target="_blank"><img class="logos" src="fb.png" alt="facebook account "></a>
+ 	 <a href="https://www.linkedin.com/in/harnath-vagicharla-40a32298?trk=nav_responsive_tab_profile" target="_blank"><img id="logo1" src="linkedin.png" alt=" likedIn account "></a>
+	 </ul>
+
+
+        </div>     
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+  <div class="col-sm-6">
+        <h1>Currency Value!</h1>
+        <p>
+            Do you guys ever wonder how the currency value is decided.<br>If not do u check this video that would help you. <br>
+            Checkout below to find out your currency value in other countries.
+            
+            </p> </div>
+      <div class="col-sm-6">
+          <iframe width="300" height="300" src="https://www.youtube.com/embed/uWIm4-iF7W4" frameborder="0" allowfullscreen></iframe>
+          </div> 
+       </div>
+    </div>
+    </div>
+<form id="converter">
+	From<br>
+	<select id="from">
+		<option>Select</option>
+		<option>USD</option>
+		<option>INR</option>
+		<option>GBP</option>
+		<option>CAD</option>
+        <option>AUD</option>
+        <option>EURO</option>
+		<option>PESO</option>
+        <option>BRL</option>
+	</select><div class="output">  Input<br>
+	<input id="io" type="text" value="0">
+    <br></div>
+	To<br>
+	<select id="to">
+		<option>Select</option>
+		<option>USD</option>
+		<option>INR</option>
+		<option>GBP</option>
+		<option>CAD</option>
+        <option>AUD</option>
+        <option>EURO</option>
+		<option>PESO</option>
+        <option>BRL</option>
+	</select>
+    
+	<div class="output">  Output<br>
+	<input id="io1" type="text" value="0">
+        </div>
+        	<br><br>
+<button type="button" onclick="sum()">Submit</button><br><br>
+	<br>
+
+</form>
+<hr>
+</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>      
+       
+    </body>
+</html>
